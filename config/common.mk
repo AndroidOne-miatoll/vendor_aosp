@@ -225,6 +225,8 @@ include vendor/aosp/config/version.mk
 
 # Signing
 -include vendor/priv-keys/keys.mk
+# PlayIntegrity Certification
+-include vendor/certification/config.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 
